@@ -1,0 +1,19 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "http://www.thehunter.com/?src=chrome"
+      },
+      "urls": [ "http://www.thehunter.com/" ]
+   },
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "icons": {
+      "128": "icon_128.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDXeyso4nKhQX4fxTF58omvYMXHjCHZTkSpSbHldUE5gNpnoTffkr6bu/itKUfdUpZPHQBliqW2TRDOjBE+vgyINfATrkLtAzRA87AK03MF88ZYff0vzqfuX6cGKwrbSypgTCWXNJw7NZSeG3zE91WqL8mWu+f+NdPJLHGTwr2CDwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_appName__",
+   "permissions": [ "unlimitedStorage", "notifications" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "10"
+}

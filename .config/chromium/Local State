@@ -1,0 +1,125 @@
+{
+   "app_list": {
+      "app_launch_count": 0,
+      "last_app_launch_ping": "13062038400000000",
+      "last_launch_ping": "13062038400000000",
+      "launch_count": 0
+   },
+   "browser": {
+      "enabled_labs_experiments": [  ],
+      "last_redirect_origin": ""
+   },
+   "data_reduction": {
+      "daily_original_length": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "15921708", "376507175" ],
+      "daily_original_length_via_data_reduction_proxy": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+      "daily_original_length_with_data_reduction_proxy_enabled": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+      "daily_received_length": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "15921708", "376507175" ],
+      "daily_received_length_https_with_data_reduction_proxy_enabled": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+      "daily_received_length_long_bypass_with_data_reduction_proxy_enabled": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+      "daily_received_length_short_bypass_with_data_reduction_proxy_enabled": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+      "daily_received_length_unknown_with_data_reduction_proxy_enabled": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+      "daily_received_length_via_data_reduction_proxy": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+      "daily_received_length_with_data_reduction_proxy_enabled": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+      "last_update_date": "13062038400000000"
+   },
+   "gl_renderer_string": "Mesa DRI Intel(R) Haswell Mobile ",
+   "gl_vendor_string": "Intel Open Source Technology Center",
+   "gl_version_string": "3.0 Mesa 10.3.4",
+   "hardware_acceleration_mode_previous": true,
+   "http_original_content_length": "392428883",
+   "http_received_content_length": "392428883",
+   "local_state": {
+      "multiple_profile_prefs_version": 7
+   },
+   "network_time": {
+      "network_time_mapping": {
+         "local": 1417606228939.755,
+         "network": 1417570277729.402
+      }
+   },
+   "ntp": {
+      "promo_resource_cache_update": "1417598350.148114"
+   },
+   "policy": {
+      "last_statistics_update": "13062010601121304"
+   },
+   "profile": {
+      "info_cache": {
+         "Default": {
+            "active_time": 1417606552.681548,
+            "avatar_icon": "chrome://theme/IDR_PROFILE_AVATAR_2",
+            "background_apps": false,
+            "is_ephemeral": false,
+            "is_omitted_from_profile_list": false,
+            "is_using_default_avatar": true,
+            "is_using_default_name": true,
+            "managed_user_id": "",
+            "name": "Brandon",
+            "use_gaia_picture": false,
+            "user_name": "bsleater@asu.edu"
+         }
+      },
+      "last_active_profiles": [  ],
+      "last_used": "Default"
+   },
+   "protocol_handler": {
+      "excluded_schemes": {
+         "afp": true,
+         "data": true,
+         "disk": true,
+         "disks": true,
+         "file": true,
+         "hcp": true,
+         "javascript": true,
+         "mailto": false,
+         "ms-help": true,
+         "news": false,
+         "nntp": true,
+         "shell": true,
+         "snews": false,
+         "vbscript": true,
+         "view-source": true,
+         "vnd": {
+            "ms": {
+               "radio": true
+            }
+         }
+      }
+   },
+   "shutdown": {
+      "num_processes": 10,
+      "num_processes_slow": 2,
+      "type": 1
+   },
+   "uninstall_metrics": {
+      "installation_date2": "1417447095",
+      "launch_count": "38"
+   },
+   "user_experience_metrics": {
+      "low_entropy_source2": 3893,
+      "session_id": 37,
+      "stability": {
+         "breakpad_registration_fail": 38,
+         "child_process_crash_count": 0,
+         "crash_count": 24,
+         "debugger_not_present": 38,
+         "execution_phase": 700,
+         "exited_cleanly": true,
+         "extension_renderer_crash_count": 0,
+         "incomplete_session_end_count": 2,
+         "last_timestamp_sec": "1417606552",
+         "launch_count": 38,
+         "launch_time_sec": "1417605357",
+         "page_load_count": 0,
+         "plugin_stats2": [  ],
+         "renderer_crash_count": 0,
+         "renderer_hang_count": 0,
+         "session_end_completed": true,
+         "stats_buildtime": "1417007160",
+         "stats_version": "39.0.2171.71-64-devel"
+      }
+   },
+   "was": {
+      "restarted": false
+   }
+}

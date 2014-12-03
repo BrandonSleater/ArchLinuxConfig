@@ -1,0 +1,19 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "background.js" ]
+   },
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+   "default_locale": "en",
+   "description": "Search for your highlighted words on MyAnimeList",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAu1sVkOQBEmOUgrLyWZETiVpVhBfpiLuvzhiKuR0SnVpzFLtyM91/TxhtP+ygPLyljfUZq9rCoIQgI1/H1y5T3uUPnVBr20euvSwvgmhdRy5iRTuzx6RxaO3UPvXW+A6PHt/67xP6oZ/StKZbFQ16Kky720S1mAO3K9eEA/Kutj5ypfCW8AJF/VqnM5b8cennF7F5zcEfLPre6kcCu2pCMo8ATAov/b4ede4OUFULPmiTTMnFgdllg9iZHhOfEnyQ9tVzUWVeOO4qLpwbHctqAqJ0mdX4GkGItU2ppg3OFJ1WOAJPgl5ZfqGukhO6MFVdn6F99KQ3OAYFMrWroCjWewIDAQAB",
+   "manifest_version": 2,
+   "name": "MAL it!",
+   "permissions": [ "contextMenus" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0"
+}
