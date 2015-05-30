@@ -1,7 +1,7 @@
 URxvt*scrollBar:                false
 URxvt*termName:                 screen-256color
 
-!URxvt.font:				              xft:monaco:size=10
+!URxvt.font:                      xft:monaco:size=10
 urxvt.font:                     xft:inconsolata:pixelsize=16
 !URxvt*letterSpace:              -2
 
@@ -13,14 +13,14 @@ urxvt*cursorUnderline:          1
 URxvt*background:               #1F1F1F
 URxvt*foreground:               #C0B18B
 
-URxvt*cursorColor:			        #C0B18B
-URxvt*colorBD:				          #C0B18B
-URxvt*colorUL:				          #C0B18B
-URxvt*colorIT:				          #C0B18B
+URxvt*cursorColor:              #C0B18B
+URxvt*colorBD:                  #C0B18B
+URxvt*colorUL:                  #C0B18B
+URxvt*colorIT:                  #C0B18B
 
 !Black
 URxvt*color0:                   #4A3637
-URxvt.color8:				            #402E2E
+URxvt.color8:                   #402E2E
 
 !Red
 URxvt*color1:                   #D17B49
@@ -54,19 +54,19 @@ URxvt*color15:                  #978965
 URxvt*fading:                   25
 
 URxvt.tabbed.autohide:          true
-URxvt.keysym.Control-Tab: 	  	perl:tabbedex:new_tab
-URxvt.keysym.Control-Home: 		  perl:tabbedex:next_tab
-URxvt.keysym.Control-End: 		  perl:tabbedex:prev_tab
+URxvt.keysym.Control-Tab:       perl:tabbedex:new_tab
+URxvt.keysym.Control-Home:      perl:tabbedex:next_tab
+URxvt.keysym.Control-End:       perl:tabbedex:prev_tab
 
 !Copy/Pasta
 URxvt.keysym.Shift-Control-L:   perl:font-size:increase
-URxvt.keysym.Shift-Control-K:		perl:font-size:decrease
-URxvt.keysym.Shift-Control-C:		perl:clipboard:copy
-URxvt.keysym.Shift-Control-V: 	perl:clipboard:paste
-URxvt.perl-ext-common: 					clipboard,default,font-size,tabbedex,url-select
+URxvt.keysym.Shift-Control-K:   perl:font-size:decrease
+URxvt.keysym.Shift-Control-C:   perl:clipboard:copy
+URxvt.keysym.Shift-Control-V:   perl:clipboard:paste
+URxvt.perl-ext-common:          clipboard,default,font-size,tabbedex,url-select
 
 URxvt.iso14755_52:              false
-URxvt.iso14755: 								false
+URxvt.iso14755:                 false
 
 URxvt.keysym.Shift-Control-O:   perl:url-select:select_next
 URxvt.url-select.launcher:      /usr/bin/firefox

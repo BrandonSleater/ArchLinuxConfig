@@ -26,11 +26,11 @@ bspc config focused_frame_opacity       1.00
 COUNT="$(xrandr -d :0 -q | grep ' connected' | wc -l)"
 
 if [ $COUNT -eq 2 ]
-then	
-	bspc monitor eDP1 -d I II III IV V
-	bspc monitor HDMI2 -d VI VII VIII IX X
+then
+  bspc monitor eDP1 -d I II III IV V
+  bspc monitor HDMI2 -d VI VII VIII IX X
 else
-	bspc monitor eDP1 -d I II III IV V VI VII VIII IX X
+  bspc monitor eDP1 -d I II III IV V VI VII VIII IX X
 fi
 
 bspc rule -a battery.py floating=on focus=on

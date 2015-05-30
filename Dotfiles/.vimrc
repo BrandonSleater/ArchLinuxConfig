@@ -2,7 +2,6 @@
 "        Behaviour        "
 """""""""""""""""""""""""""
 set nocompatible                " Don't behave like Vi
-
 set wildmenu                    " Enhanced command line completion
 set wildmode=longest,list       " Complete the longest match, then list others
 set backspace=indent,eol,start  " Allow backspacing over more stuff
@@ -22,37 +21,37 @@ set autoread                    " Auto read file changes from outside
 """""""""""""""""""""""""""""
 "        Formatting         "
 """""""""""""""""""""""""""""
-set tabstop=2             " Width of the tab character
-set softtabstop=2         " How many columns the tab key inserts
-set shiftwidth=2          " Width of 1 indentation level
-set expandtab             " Expand tabs into spaces
-set smartindent           " Smart C-like autoindenting
+set tabstop=2                   " Width of the tab character
+set softtabstop=2               " How many columns the tab key inserts
+set shiftwidth=2                " Width of 1 indentation level
+set expandtab                   " Expand tabs into spaces
+set smartindent                 " Smart C-like autoindenting
 
-filetype plugin indent on " Determine indentation rules by filetype
+filetype plugin indent on       " Determine indentation rules by filetype
 
 """""""""""""""""""""""""""""
 "        Interface          "
 """""""""""""""""""""""""""""
-set number                    " Show line numbers
-set showmatch                 " When inserting brackets, highlight the matching one
-set hlsearch                  " Highlight search results
-set incsearch                 " Highlight search results as the search is typed
-set showcmd                   " Show command on the bottom
-set ruler                     " Show line and cursor position
-set listchars=tab:>-,trail:·  " Show tabs and trailing space
-set list                      " Enable the above settings
+set number                      " Show line numbers
+set showmatch                   " When inserting brackets, highlight the matching one
+set hlsearch                    " Highlight search results
+set incsearch                   " Highlight search results as the search is typed
+set showcmd                     " Show command on the bottom
+set ruler                       " Show line and cursor position
+set listchars=tab:>-,trail:·    " Show tabs and trailing space
+set list                        " Enable the above settings
 
-syntax on                     " Enable syntax highlighting
+syntax on                       " Enable syntax highlighting
 
 """""""""""""""""""""""""""""
 "        Plugins            "
 """""""""""""""""""""""""""""
-call pathogen#infect()  " Pathogen takes care of loading the plugins
+call pathogen#infect()          " Pathogen takes care of loading the plugins
 
 """""""""""""""""""""""""""""
 "        Key Mapping        "
 """""""""""""""""""""""""""""
-" j and k go up/down a row in wrapped lines
+" j and k go ddup/down a row in wrapped lines
 nnoremap j gj
 nnoremap k gk
 
@@ -77,27 +76,26 @@ set pastetoggle=<F3>
 """"""""""""""""""""""""""""""""""
 "        Colours and GUI         "
 """"""""""""""""""""""""""""""""""
-if &term=='xterm'   " xterm supports 256 colours but doesn't set this
+if &term=='xterm'               " xterm supports 256 colours but doesn't set this
   set t_Co=256
 endif
 
 if &t_Co==256
-        set background=dark     " Use dark background
-            colorscheme default  " Use nicer colourscheme
-            endif
-            if has("gui_running")
-                colorscheme default  " Gui sometimes doesn't set t_Co
+  set background=dark           " Use dark background
+  colorscheme default           " Use nicer colourscheme
+endif
 
-                    set guioptions+=TlrbRLe " Bug workaround
-                        set guioptions-=TlrbRLe " Hide the toolbar and scrollbars, use text tabs
+if has("gui_running")
+  colorscheme default           " Gui sometimes doesn't set t_Co
 
-                            set guioptions+=c       " Don't open dialogue windows
+  set guioptions+=TlrbRLe       " Bug workaround
+  set guioptions-=TlrbRLe       " Hide the toolbar and scrollbars, use text tabs
+  set guioptions+=c             " Don't open dialogue windows
+  set background=dark           " Use dark background
 
-                                set background=dark     " Use dark background
-
-                                    if has("linux")
-                                            set guifont=Monospace\ 10   " Use different font
-                                                elseif has("Win32")
-                                                        set guifont=Consolas:h10
-                                                            endif
-                                                            endif
+  if has("linux")
+    set guifont=Monospace\ 10   " Use different font
+  elseif has("Win32")
+    set guifont=Consolas:h10
+  endif
+endif

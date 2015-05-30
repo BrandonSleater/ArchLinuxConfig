@@ -1,16 +1,15 @@
-# Random wallpaper
 sh ~/Scripts/auto_wallpaper.sh
 
-# Enable fn keys
+# Fn keys
 xbindkeys
 
-# Ensure we load term styles
+# Styles
 xrdb ~/.Xresources
 
-# Make sure to include local fonts
+# Fonts
 xset +fp /usr/share/fonts/local/
 
-# Stop dpms and change timer to 30 min
+# Display turn off 30 min
 xset -dpms
 xset s 1800 1800
 
