@@ -10,6 +10,13 @@ xrdb ~/.Xresources
 # Make sure to include local fonts
 xset +fp /usr/share/fonts/local/
 
+# Stop dpms and change timer to 30 min
+xset -dpms
+xset s 1800 1800
+
+# Shadowing
+compton &
+
 # Startup
-sxhkd &
+sxhkd -f 100 &
 exec bspwm

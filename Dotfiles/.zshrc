@@ -5,10 +5,14 @@ SAVEHIST=1000
 
 # Add color support
 autoload -U colors && colors
-PS1="%{$fg[magenta]%}%n%{$reset_color%} ~ %{$reset_color%}%"
+PS1="%{$fg[magenta]%} » %{$reset_color%}"
 
 alias ls='ls --color=auto'
 alias ll='ls -la'
+alias please='sudo $(fc -ln -1)'
+
+export VISUAL=vim
+export EDITOR="$VISUAL"
 
 bindkey -e
 

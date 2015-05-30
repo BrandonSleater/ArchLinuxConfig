@@ -1,4 +1,11 @@
 #!/bin/sh
 
-find ~/Photos/Wallpapers/Motivation/ -type f \( -name '*.jpg' -o -name '*.png' \) -print0 |
-shuf -n1 -z | xargs -0 feh --bg-fill
+EXT="HDMI2"
+PHOTOS=~/Photos/Wallpapers
+
+if (xrandr | grep "$EXT disconnected"); then
+  feh --bg-scale $PHOTOS/elk.jpg
+else
+  feh --bg-scale $PHOTOS/elk.jpg --bg-scale $PHOTOS/cloud.jpg
+fi
+

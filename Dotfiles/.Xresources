@@ -1,54 +1,82 @@
-URxvt*scrollBar:                        false
-URxvt*termName:                         screen-256color
+URxvt*scrollBar:                false
+URxvt*termName:                 screen-256color
 
-URxvt.font:				xft:monaco:size=10
-URxvt*letterSpace:                      -2
+!URxvt.font:				              xft:monaco:size=10
+urxvt.font:                     xft:inconsolata:pixelsize=16
+!URxvt*letterSpace:              -2
 
-URxvt*background:                       #1F1F1F
-URxvt*foreground:                       #C0B18B
+urxvt*cursorBlink:              true
+urxvt*depth:                    32
+urxvt*internalBorder:           5
+urxvt*cursorUnderline:          1
 
-URxvt*cursorColor:			#C0B18B
-URxvt*colorBD:				#C0B18B
-URxvt*colorUL:				#C0B18B
-URxvt*colorIT:				#C0B18B
+URxvt*background:               #1F1F1F
+URxvt*foreground:               #C0B18B
+
+URxvt*cursorColor:			        #C0B18B
+URxvt*colorBD:				          #C0B18B
+URxvt*colorUL:				          #C0B18B
+URxvt*colorIT:				          #C0B18B
 
 !Black
-URxvt*color0:                           #4A3637
-URxvt.color8:				#402E2E
+URxvt*color0:                   #4A3637
+URxvt.color8:				            #402E2E
 
 !Red
-URxvt*color1:                           #D17B49
-URxvt*color9:                           #AC5D2F
+URxvt*color1:                   #D17B49
+URxvt*color9:                   #AC5D2F
 
 !Green
-URxvt*color2:                           #7B8748
-URxvt*color10:                          #647035
+URxvt*color2:                   #7B8748
+URxvt*color10:                  #647035
 
 !Yellow
-URxvt*color3:                           #AF865A
-URxvt*color11:                          #8F6840
+URxvt*color3:                   #AF865A
+URxvt*color11:                  #8F6840
 
 !Blue
-URxvt*color4:                           #535C5C
-URxvt*color12:                          #444B4B
+URxvt*color4:                   #535C5C
+URxvt*color12:                  #444B4B
 
 !Magenta
-URxvt*color5:                           #775759
-URxvt*color13:                          #614445
+URxvt*color5:                   #775759
+URxvt*color13:                  #614445
 
 !Cyan
-URxvt*color6:                           #6D715E
-URxvt*color14:                          #585C49
+URxvt*color6:                   #6D715E
+URxvt*color14:                  #585C49
 
 !White
-URxvt*color7:                           #C0B18B
-URxvt*color15:                          #978965
+URxvt*color7:                   #C0B18B
+URxvt*color15:                  #978965
 
 !Misc
-URxvt*fading:                           25
+URxvt*fading:                   25
+
+URxvt.tabbed.autohide:          true
+URxvt.keysym.Control-Tab: 	  	perl:tabbedex:new_tab
+URxvt.keysym.Control-Home: 		  perl:tabbedex:next_tab
+URxvt.keysym.Control-End: 		  perl:tabbedex:prev_tab
 
 !Copy/Pasta
+URxvt.keysym.Shift-Control-L:   perl:font-size:increase
+URxvt.keysym.Shift-Control-K:		perl:font-size:decrease
 URxvt.keysym.Shift-Control-C:		perl:clipboard:copy
-URxvt.keysym.Shift-Control-V: 		perl:clipboard:paste
-URxvt.iso14755: 			False
-URxvt.perl-ext-common: 			default,clipboard
+URxvt.keysym.Shift-Control-V: 	perl:clipboard:paste
+URxvt.perl-ext-common: 					clipboard,default,font-size,tabbedex,url-select
+
+URxvt.iso14755_52:              false
+URxvt.iso14755: 								false
+
+URxvt.keysym.Shift-Control-O:   perl:url-select:select_next
+URxvt.url-select.launcher:      /usr/bin/firefox
+URxvt.url-select.underline:     true
+URxvt.colorUL:                  #4682B4
+
+Xft.antialias:                  1
+Xft.autohint:                   0
+Xft.dpi:                        96
+Xft.hinting:                    1
+Xft.hintstyle:                  hintfull
+Xft.lcdfilter:                  lcddefault
+Xft.rgba:                       rgb
